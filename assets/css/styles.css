@@ -1197,3 +1197,8 @@ img {
     font-size: 20px;
   } */
 }
+
+
+.favicon{
+  border-radius: 50%;
+}
