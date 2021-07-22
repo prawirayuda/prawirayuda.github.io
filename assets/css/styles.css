@@ -1199,6 +1199,7 @@ img {
 }
 
 
-.favicon{
-  border-radius: 50%;
+.about__buttons {
+  display: flex;
+  justify-content: center;
 }
