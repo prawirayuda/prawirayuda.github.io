@@ -388,6 +388,25 @@ img {
     padding: 1rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
+    outline: none;
+}
+
+.tombol {
+    outline: none;
+    background-color: var(--first-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    font-weight:var(--font-medium) ;
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    font-family: var(--font-semi-bold);
+    font-size: 15px;
+
+    
+}
+.tombol:hover {
+    background-color: hsl(11, 74%, 53%);
 }
 
 .button:hover {
@@ -411,8 +430,15 @@ img {
 }
 
 .button--flex {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
+    align-content: center;
+}
+
+.tombol--flex{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
 }
 
 .button--small {
@@ -1352,7 +1378,7 @@ img {
         bottom: -4.5rem;
     }
     .contact__form {
-        width: 460px;
+        width: 700px;
     }
     .contact__inputs grid {
         grid-template-columns: repeat(2, 1fr);
