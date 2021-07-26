@@ -378,7 +378,7 @@ img {
     font-size: 1.25rem;
 }
 
-
+/* tes niagahoster git hub */
 /*==================== BUTTONS ====================*/
 
 .button {
@@ -401,10 +401,10 @@ img {
     padding: 1rem;
     border: none;
     font-family: var(--font-semi-bold);
-    font-size: 15px;
-
-    
+    font-size: 15px;    
 }
+
+
 .tombol:hover {
     background-color: hsl(11, 74%, 53%);
 }
